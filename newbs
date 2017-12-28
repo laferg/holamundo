@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10px 100px 10px 100px;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+/* Note: Internet Explorer 9 and earlier versions don't support the column-width property. */
+.fun {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count:2;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: dotted; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: dotted; /* Firefox */
+    column-rule-style: dotted;
+}
+.serious {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count:3;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: dotted; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: dotted; /* Firefox */
+    column-rule-style: dotted;
+}
+h1 {
+	padding: 10px 0px;
+	color: purple;
+}
+h2 {
+    column-span: all;
+    background: #808080;
+    border: 3px solid #808080;
+    border-radius: 0px 5px;
+    color: white;
+    font-size:22pt;
+    
+}
+h3 {
+    column-span: all;
+    background: teal;
+	border-radius: 0px 5px;
+    color: white;
+    font-size:22pt;
+    align: center;
+}
+h4 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+    background: purple;
+    border-radius: 0px 5px;
+    color: white;
+    font-size:18pt;
+}
+p1 {
+    column-span: all;
+    color: teal;
+    font-size:14pt; 		
+    
+}
+/* Note: Internet Explorer 9 and earlier versions don't support the column-width property. */
+</style>
+</head>
+
+
+
+<body>
+
+<center>
+<h1>Awesome Newsletter of Doom</h1>
+</center>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Agency Updates</a></li>
+  <li><a href="#newbs">New Hire Welcome</a></li>
+  <li><a href="#about">Contributors</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+<h1>Nifty Tabor Services, Inc. Summary</h1>
+<p1>The shared vision of Tabor Children’s Services and Tabor Community Partners has resulted in a network that helps the most vulnerable children and families within our community. This network supports the <a href="http://dynamicsights.com/dhs/ioc/index.php">Improving Outcomes for Children (IOC) initiative <a> where the community is strengthened through agency partnerships and citizens working together to build upon resources.</p1>
+
+<h4>Tabor Children's Services</h4>
+
+Founded 1907 as an orphanage, Tabor’s vision has led to a rich history of serving children and families in need and now serves as a multi-service community-based organization providing in-home familial support services, foster care, adoption, adolescent life skill programs and mentoring.
+
+Tabor Children’s Services (Tabor) is a nonprofit community-based child welfare organization that secures supports, resources and permanent connections for children and youth within their own community and culture so they can overcome life’s challenges and reach their full potential. Tabor is a true “family of services” as it provides a comprehensive range of programs that ensure children, youth and families are safe and secure in their homes and in their communities.
+
+Providing services to approximately 700 children and families annually throughout Bucks County, Philadelphia and the Lehigh Valley, Tabor is one of the few agencies with dedicated programs for both children who have endured abuse and neglect and young adults who are “aging out” of the child welfare system.
+
+<p>
+<h4>Tabor Community Partners</h4>
+
+Tabor Children Services’ affiliate, Tabor Community Partners (TCP), contracts with the Philadelphia Department of Human Services (DHS) to serve as the Community Umbrella Agency (CUA) for the 5th and 14th police districts in the Northwest Section of Philadelphia. As a CUA, TCP manages cases in this region to provide community-based service delivery to children and families.
+
+TCP provides stronger protection for vulnerable populations in efforts to support the Improving Outcomes for Children (IOC) initiative set forth by DHS.
+
+TCP is a community-based service delivery approach which will enable DHS to work more closely with the communities our children come from.  The ultimate goal is to create a service system that is informed by and speaks to the needs of those communities.
+
+<p>
+<h3><b>Latest Updates </h3>
+
+<div class="serious">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</div>
+
+<p>
+<h4>Welcome to the Team!</h4>
+
+<div class="serious">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</div>
+
+</body>
+</html>
